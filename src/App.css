@@ -1,0 +1,124 @@
+* {
+    background-color: black;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 403px;
+    height: 692px;
+    left: 58px;
+    top: 201px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.p1 {
+    position: relative;
+    width: 145px;
+    height: 39px;
+    left: 12px;
+    top: 387px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.p2 {
+    position: relative;
+    width: 369px;
+    height: 39px;
+    left: 12px;
+    top: 366px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.image {
+    position: relative;
+    width: 383px;
+    height: 383px;
+    left: 11px;
+    top: -126px;
+
+    /* background: url(image.png); */
+    border-radius: 20px 20px 0px 0px;
+}
+
+.btn {
+    /* position: relative; */
+    width: 223px;
+    height: 60px;
+
+    color: wheat;
+    font-size: 32px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+}
+
+.likes {
+    position: relative;
+    width: 369px;
+    height: 39px;
+    left: 12px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.search {
+    position: relative;
+    width: 1141px;
+    height: 53px;
+    left: 37px;
+    top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1000px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.btn2 {
+    position: relative;
+    left: 530px;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+
+    border: 2px solid wheat;
+    color: white;
+    cursor: pointer;
+}
